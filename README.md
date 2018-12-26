@@ -93,7 +93,7 @@ The segmented class image can now be found at `foo.png`.
 ### Results
 
 
-There are some results based on SegNet after 40 epoches.you'd better to set the loss_weights[0] = 1 / 10 to deal with unbalanced problem gracefully.
+There are some results based on segnet after 40 epoches.you'd better to set the loss_weights[0] = 1 / 10 to deal with unbalanced problem gracefully.
 
 <table>
   <tr>
