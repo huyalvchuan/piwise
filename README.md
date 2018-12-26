@@ -89,3 +89,38 @@ The segmented class image can now be found at `foo.png`.
 [dataset]: http://host.robots.ox.ac.uk/pascal/VOC/
 [dataset_example]: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/segexamples
 [dataset_download]: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+
+### Results
+
+
+There are some results based on SegNet after 40 epoches.you'd better to set the loss_weights[0] = 1 / 10 to deal with unbalanced problem gracefully.
+
+<table>
+  <tr>
+    <th>input</th>
+    <th>output</th>
+    <th>lable</th>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://github.com/huyalvchuan/piwise/blob/master/results/input1.jpg?raw=true">
+    </td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/output1.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/target1.jpg?raw=true"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/input2.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/output2.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/target2.jpg?raw=true"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/input3.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/output3.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/target3.jpg?raw=true"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/input4.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/output4.jpg?raw=true"></td>
+    <td><img src="https://github.com/huyalvchuan/piwise/blob/master/results/target4.jpg?raw=true"></td>
+  </tr>
+</table>
